@@ -14,13 +14,5 @@ public class ShopMain {
                 new String[]{"red wine", "white wine"},
                 "123 Street, Mandaluyong City", 5,false);
         wineShop.printDetails();
-        System.out.println("***** break line *****");
-        
-        Shop cakeShop = new Shop();
-        cakeShop.name = "Din's Cake Shop";
-        cakeShop.setItems(new String[]{"choco", "strawberry", "ube"});
-        cakeShop.setAddress("456XYZ, 2nd Street, Makati");
-        cakeShop.setNoOfEmployees(-10);
-        cakeShop.printDetails();
     }
 }

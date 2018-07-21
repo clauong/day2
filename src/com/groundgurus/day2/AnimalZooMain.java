@@ -14,9 +14,7 @@ public class AnimalZooMain {
                         Arrays.asList(
                                 new Dog(),
                                 new Dog(),
-                                new Dog(),
-                                new Cat(),
-                                new Cat()
+                                new Dog()
                         ));
 
         mnlZoo.walkAllAnimals();
